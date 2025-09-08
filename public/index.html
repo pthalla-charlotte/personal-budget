@@ -14,11 +14,12 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-
+<!-- This is an A11y Change -->
 <a href="#main" class="skip">Skip to content</a>
 <!-- This is a Semantic HTML Change -->
 <header>
-    <nav>
+    <!-- This is an A11y Change -->
+    <nav aria-label="Main navigation">
         <ul>
             <li><a href="/">Home</a></li>
             <li><a href="/about.html">About</a></li>
@@ -98,7 +99,8 @@
             <article>
                 <h2>Chart</h2>
                 <p>
-                    <canvas id="myChart" width="400" height="400"></canvas>
+                <!-- This is an A11y Change -->
+                <canvas id="myChart" width="400" height="400" role="img" aria-label="Pie chart showing budget categories"></canvas>
                 </p>
             </article>
 
